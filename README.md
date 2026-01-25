@@ -29,4 +29,8 @@ A beginner-friendly web project built with HTML, CSS, and JavaScript was intiall
 - Helped me structure a simple front
 - Applied styles to different elements and tested the site in the default browser.
 - How to debug and inspect elements using developer tools.
-- Formed an original project through a guided learning exercise. 
+- Formed an original project through a guided learning exercise.
+
+🔗‍️Live Demo:
+View the project in your browser:  
+https://faizorithm.github.io/dev/
