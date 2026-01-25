@@ -3,9 +3,9 @@
 
 A beginner-friendly web project built with HTML, CSS, and JavaScript was intially created as a part of Microsoft's module Web Development using Visual Studio Code.
 
-👉# The Microsoft module consisted of 7 units with hands-on exercises, term definitions, and concluded with a module assessment that I have completed. 
+👉 The Microsoft module consisted of 7 units with hands-on exercises, term definitions, and concluded with a module assessment that I have completed. 
 
-📝# Following core concepts of original module:
+# Following core concepts of original module:
 -Create a basic web page using HTML.
 -Apply styles to page elements using CSS.
 -Create themes using CSS.
