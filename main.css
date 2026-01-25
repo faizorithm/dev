@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "TreasureMap";
+    src: url("fonts/TreasureMap.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+:root {
+    --black: #0b0b0f;
+    --beige: #f5f0e6;
+    --crimson: #8b0000;
+    --gold: #d4af37;
+    --font-body: --font-body: "Times New Roman", Times, serif;
+
+    --text-primary: var(--beige);
+    --text-accent: var(--gold);
+
+    --font-title: "TreasureMap", serif;
+  }
+
+body {
+    background: var(--bg);
+    color: var(--text-primary);
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: var(--font-body);
+  }
+
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  #msg {
+    font-family:var(--font-body);
+  }
+  .light-theme {
+    --bg:var(--beige);
+    --text-primary:var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--crimson);
+  }
+  .dark-theme {
+    --bg: var(--black);
+    --text-primary:var(--beige);
+    --accent: var(--gold);
+    --btnBg: var(--crimson);
+    --btnFontColor: var(--beige);
+  }
+    .btn {
+        position: absolute;
+        top: 20px;
+        left: 800px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: none;
+        color: var(--btnFontColor);
+        background-color: var(--btnBg);
+      }
+    h1 {
+        font-family: var(--font-title);
+        color: var(--text-accent);
+      }
+      
