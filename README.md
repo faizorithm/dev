@@ -14,19 +14,19 @@ My beginner-friendly web project built with HTML, CSS, and JavaScript was intial
 
 
 🔗‍️Features 
-- Light/Dark mode toggle (CSS variables)
-- Improved typography with a custom pirate font for the title
-- Crimson/gold/black theme styling
+- Light/Dark mode toggle (CSS variables).
+- Improved typography with a custom pirate font for the title.
+- Crimson/gold/black theme styling.
 
 🔍Technology Platforms Used
-- HTML5 template code
-- HTML structure and semantic layout
+- HTML5 template code.
+- HTML structure and semantic layout.
 - External CSS file for page layout and themes.
 - JavaScript for interactivity and theme switching.
-- Debugging using browser DevTools
+- Debugging using browser DevTools.
 
 ✍️Project Takeaways
-- Helped me structure a simple front
+- Helped me structure a simple front.
 - Applied styles to different elements and tested the site in the default browser.
 - How to debug and inspect elements using developer tools.
 - Formed an original project through a guided learning exercise.
@@ -34,3 +34,5 @@ My beginner-friendly web project built with HTML, CSS, and JavaScript was intial
 🔗‍️Live Demo:
 View the project in your browser:  
 https://faizorithm.github.io/dev/
+
+♡(˶ˆᗜˆ˵)♡ Happy Coding!
