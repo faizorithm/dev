@@ -1,7 +1,7 @@
 
 # Faiza's Budget Pal Web! 💻
 
-A beginner-friendly web project built with HTML, CSS, and JavaScript was intially created as a part of Microsoft's module Web Development using Visual Studio Code.
+A beginner-friendly web project built with HTML, CSS, and JavaScript was intially created as a part of Microsoft's module Web Development using Visual Studio Code. I have expanded on the project by creating a bugdet tracker that tracks my income and all my expenses as a college student!
 
 👉 The Microsoft module consisted of 7 units with hands-on exercises, term definitions, and concluded with a module assessment that I have completed. 
 
