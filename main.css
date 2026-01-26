@@ -14,7 +14,7 @@
     --font-body: --font-body: "Times New Roman", Times, serif;
 
     --text-primary: var(--beige);
-    --text-accent: var(--gold);
+    --text-accent: var(--crimison);
 
     --font-title: "TreasureMap", serif;
   }
@@ -25,6 +25,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: var(--font-body);
+    letter-spacing: normal;
   }
 
 li {
@@ -41,13 +42,14 @@ li {
   .light-theme {
     --bg:var(--beige);
     --text-primary:var(--black);
+    --text-accent:var(--gold);
     --btnBg: var(--black);
     --btnFontColor: var(--crimson);
   }
   .dark-theme {
     --bg: var(--black);
     --text-primary:var(--beige);
-    --accent: var(--gold);
+    --text-accent: var(--crimson);
     --btnBg: var(--crimson);
     --btnFontColor: var(--beige);
   }
@@ -65,5 +67,10 @@ li {
     h1 {
         font-family: var(--font-title);
         color: var(--text-accent);
+        letter-spacing: normal;
       }
-      
+.tagline{
+    margin-top: -10px;
+    opacity:0.5;
+    font-size: 1.0rem;
+}
