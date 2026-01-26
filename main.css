@@ -11,10 +11,10 @@
     --beige: #f5f0e6;
     --crimson: #8b0000;
     --gold: #d4af37;
-    --font-body: --font-body: "Times New Roman", Times, serif;
+    --font-body: "Times New Roman", Times, serif;
 
     --text-primary: var(--beige);
-    --text-accent: var(--crimison);
+    --text-accent: var(--crimson);
 
     --font-title: "TreasureMap", serif;
   }
@@ -56,14 +56,24 @@ li {
     .btn {
         position: absolute;
         top: 20px;
-        left: 800px;
+        right: 20px;
         height: 50px;
         width: 50px;
         border-radius: 50%;
         border: none;
         color: var(--btnFontColor);
         background-color: var(--btnBg);
+        font-weight:700;
+        cursor:pointer;
+        transition: transform 0.4s ease;
+        
+
       }
+      .btn:hover{
+        opacity: 0.85;
+        transform:rotate(360deg);
+      }
+    
     h1 {
         font-family: var(--font-title);
         color: var(--text-accent);
