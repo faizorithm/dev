@@ -15,3 +15,11 @@ switcher.addEventListener('click', function() {
     }
     console.log('current class name: ' + className);
 });
+const addBtn = document.getElementById("addBtn");
+const nameInput= document.getElementById("nameInput");
+const amtInput = document.getElementById("amtInput");
+addBtn.addEventListener("click", function () {
+  alert("Hi! You entered: " + nameInput.value + " for $" + amtInput.value);
+  nameInput.value = "";
+  amtInput.value = "";
+});
