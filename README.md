@@ -1,5 +1,5 @@
 
-# Task List Web App! 💻
+# Faiza's Budget Pal Web! 💻
 
 A beginner-friendly web project built with HTML, CSS, and JavaScript was intially created as a part of Microsoft's module Web Development using Visual Studio Code.
 
