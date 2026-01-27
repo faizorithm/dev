@@ -18,8 +18,24 @@ switcher.addEventListener('click', function() {
 const addBtn = document.getElementById("addBtn");
 const nameInput= document.getElementById("nameInput");
 const amtInput = document.getElementById("amtInput");
+const typeInput = document.getElementById("typeInput");
+let income = 0;
+let expense = 0;
+
 addBtn.addEventListener("click", function () {
-  alert("Hi! You entered: " + nameInput.value + " for $" + amtInput.value);
-  nameInput.value = "";
-  amtInput.value = "";
+
+const amount= Number(amtInput.value);
+const type = typeInput.value;
+if(!amount) return;
+if(type === "expense"){
+    expense += amount;
+}else{
+    income += amount;
+}
+const balance = income-expense;
+document.getElementById("incomeTotal").textContent = "$" + income;
+document.getElementById("expenseTotal").textContent = "$" + expense;
+document.getElementById("balanceTotal").textContent = "$" + balance;
+nameInput.value = "";
+amtInput.value = "";
 });
