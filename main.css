@@ -3,6 +3,7 @@
     src: url("fonts/TreasureMap.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+    
   }
   
 
@@ -24,7 +25,7 @@ body {
     color: var(--text-primary);
     font-size: 16px;
     line-height: 1.5;
-    font-family: var(--font-body);
+    font-family: var(--font-title);
     letter-spacing: normal;
   }
 
@@ -37,7 +38,7 @@ li {
   }
   
   #msg {
-    font-family:var(--font-body);
+    font-family: var(--font-title);
   }
   .light-theme {
     --bg:var(--beige);
@@ -45,6 +46,8 @@ li {
     --text-accent:var(--gold);
     --btnBg: var(--black);
     --btnFontColor: var(--crimson);
+    --primaryBtnBg: var(--gold);
+    --primaryBtnText: var(--black);
   }
   .dark-theme {
     --bg: var(--black);
@@ -52,6 +55,10 @@ li {
     --text-accent: var(--crimson);
     --btnBg: var(--crimson);
     --btnFontColor: var(--beige);
+    --primaryBtnBg: var(--crimson);
+    --primaryBtnText: var(--beige);
+
+
   }
     .btn {
         position: absolute;
@@ -78,9 +85,53 @@ li {
         font-family: var(--font-title);
         color: var(--text-accent);
         letter-spacing: normal;
+        text-align: center;
       }
-.tagline{
-    margin-top: -10px;
-    opacity:0.5;
-    font-size: 1.0rem;
+
+.addbtn{
+  padding: 10x 18px;
+  border-radius: 18px;
+  background: var(--primaryBtnBg);
+  color: var(--primaryBtnText);
+
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.add-btn:hover{
+font-size: 14px;
+font-weight: 600;
+cursor: pointer;
+}
+.controls input,
+.controls select,
+.controls button {
+  font-family: var(--font-title);
+  height: 50px;
+  font-size: 15px;
+  padding: 0 15px;  /* space in between the buttons*/
+  border-radius: 25px; /* rounded corners */
+  color: var(--text-accent);
+ 
+}
+.footer{
+  margin-top: 20px;        /* space from content above */
+  padding: 18px 20px;      /* space inside footer */
+
+  border-top: 1px solid var(--text-accent); /* separator line */
+
+  text-align: start;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.logo {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  
+}
+.subtitle {
+  font-family: var(--font-title);
+  text-align: center;
 }
