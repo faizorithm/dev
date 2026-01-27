@@ -8,21 +8,27 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body class = "dark-theme">
-    <p class = "tagline"> Black & Crimson Mode </p>
+    <div class="container">
+        <header class="site-header">
+            <div class="brand">
+              <span class="logo">💰</span>
+            <div>
     <h1>Faiza's Budget Pal</h1>
-    <p id="msg">Tracking College Expenses, Smarter Not Harder</p>
+    <p class="subtitle">Tracking college expenses — smarter, not harder.</p>
+    </div>
+
 <section class="summary">
     <div class="card">
         <p class="label">Income</p>
-        <p class= "incomeTotal" class = "value income">$0.00</p>
+        <p id= "incomeTotal" class = "value income">$0.00</p>
     </div>
     <div class="card">
         <p class="label">Expenses</p>
-        <p class= "expenseTotal" class = "value expense">$0.00</p>
+        <p id= "expenseTotal" class = "value expense">$0.00</p>
     </div>
     <div class="card">
         <p class="label">Balance</p>
-        <p class= "balanceTotal" class = "value balance">$0.00</p>
+        <p id= "balanceTotal" class = "value balance">$0.00</p>
     </div>
 </section>
 <section class="controls">
@@ -31,18 +37,18 @@
  <select id="typeInput">
     <option value = "expense">Expenses</option>
     <option value = "income">Income</option>
+    <option value = "balance">Balance</option>
  </select>
  <input id="dateInput" type = "date"/>
  <button id="addBtn" class="add-btn">Add</button>
 </section>
-</body>
-
-
-
+<footer class="footer">
+    <p>@ 2026 Faiza's Budget Pal. All Rights Reserved.</p>
+  </footer>
+ 
   <button class="btn">Dark</button>
 
     <script src="app.js"></script>
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
-
+</div>    
 </body>
 </html>
