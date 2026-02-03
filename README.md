@@ -1,5 +1,5 @@
 
-# Faiza's Budget Pal! 💻
+# My Budget Pal! 💻
 
 My beginner-friendly web project built with HTML, CSS, and JavaScript was intially created as a part of Microsoft's module Web Development using Visual Studio Code. I have expanded on the project by creating a budget tracker that tracks my income and all my expenses as a college student!💳
 
